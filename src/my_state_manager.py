@@ -11,7 +11,7 @@ class MyStateManager:
         # instance of MyState
         self._current_state = initial_state
         assert isinstance(self._current_state, MyState)
-        self._state_step = 0
+        self._state_step = 0    
 
     def run(self):
         
